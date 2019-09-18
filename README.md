@@ -8,6 +8,6 @@ PYNQ image build for ZC702 board
 5. Connect ethernet cable to board and set a IP address manually.
    1. Open Tera connect to board via serial port(speed 115200)
    2. Typing command: ifconfig eth0 IP_ADDRESS eg.sudo ifconfig eth0 192.168.2.99 netmask 255.255.255.0 up
-   3. suda password is also xilinx.
+   3. sudo password is also xilinx.
    4. run jupyter notebook
 6. Open browser and typing IP_ADDRESS of the ZC702 board to open jupyter notebook(password is xilinx)
